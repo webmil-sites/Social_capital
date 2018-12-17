@@ -1,0 +1,1166 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header {
+    background-image: url(../img/background_1.jpg);
+    background-position: top center;
+    background-size: cover;
+    min-height: 1050px;
+    position: relative;
+}
+
+header nav {
+    z-index: 9999;
+}
+
+header .navbar {
+    margin-bottom: 0;
+}
+
+header:after {
+    background-image: url(../img/big_hand.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 755px;
+    height: 487px;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.logo {
+    background: url("../img/logio.png") no-repeat;
+    margin: 40px 0 0 25px;
+    padding: 25px 105px;
+}
+
+.social_btn {
+    margin: 50px 65px 0 0;
+}
+
+.top_menu_box {
+    text-align: center;
+}
+
+.top_menu {
+    float: none;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.top_menu li a {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    color: #797979;
+    transition: 1s;
+}
+
+.navbar-toggle {
+    background-color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.training {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 440px;
+    width: 100%;
+}
+
+.training h1 {
+    text-shadow: 0 0 27px rgba(0, 0, 0, 0.41);
+    color: white;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 60px;
+    margin: 35px 0 30px 0;
+}
+
+.wrapper {
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.goal_section h5 {
+    padding-bottom: 35px;
+    text-shadow: 0 0 27px rgba(0, 0, 0, 0.41);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.button_order {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+}
+
+.button_order span {
+    background-color: #01dfed;
+    border-radius: 50px;
+    padding: 10px 50px;
+    display: block;
+    transition: 1s;
+}
+
+a.button_order {
+    text-decoration: none;
+}
+
+a.button_order:hover,
+a.button_order:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.button_order span:hover {
+    background-color: #00cdda;
+}
+
+.carousel {
+
+    margin-bottom: 40px;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel .item {
+    margin-bottom: 40px;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.item h3 {
+    color: white;
+    text-shadow: 0 0 27px rgba(0, 0, 0, 0.41);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.item h3 span {
+    color: white;
+    text-shadow: 0 0 27px rgba(0, 0, 0, 0.41);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.heading_left {
+    padding: 0;
+}
+
+.carousel-indicators {
+    top: 280px;
+}
+
+.carousel-indicators li {
+    width: 19px;
+    height: 19px;
+    background-color: #55535d;
+    border: 4px solid #55535d;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    background-color: #fff;
+}
+
+.project {
+    background-color: #f9f9f9;
+}
+
+.project h2 {
+    text-align: center;
+    color: #797979;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+    padding: 105px 0 80px 0;
+}
+
+.img_info {
+    position: relative;
+}
+
+.project_btn {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.project_btn span {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5px 25px;
+    display: block;
+    color: #b9b9b9;
+    font-weight: 700;
+}
+
+.project_item {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin-bottom: 120px;
+    padding-bottom: 40px;
+}
+
+.image_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url("../img/dandruff.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    opacity: 0;
+    transition: .5s;
+}
+
+.project_item:hover .image_wrap {
+    opacity: 1;
+}
+
+.project_item:hover {
+    background-color: #fff;
+    transition: .5s;
+}
+
+.work_descr {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+.project_info h3 {
+    color: #252525;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.project_info p {
+    color: #797979;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.info_btn .button {
+    background-color: #252525;
+    padding: 2px;
+    border-radius: 50px;
+    display: inline-block;
+    color: #252525;
+    font-weight: 700;
+}
+
+.info_btn .button span {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 55px;
+    display: block;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.info_btn a.button:hover,
+.info_btn a.button:focus {
+    background-color: #949494;
+    text-decoration: none;
+    color: #252525;
+    transition: 1s;
+}
+
+.authors h2 {
+    text-align: left;
+    color: #797979;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+    margin: 115px 0 55px 0;
+}
+
+.authors h3 {
+    text-align: left;
+    color: #252525;
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 70px;
+}
+
+.authors img {
+    margin: 0 auto 20px;
+}
+
+.authors_item {
+    margin-bottom: 70px;
+}
+
+.centering {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.authors h4 {
+    color: #252525;
+    font-size: 22px;
+}
+
+.authors p {
+    color: #797979;
+    line-height: 20px;
+}
+
+.authors_btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.authors .button {
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+.authors .button span {
+    background-color: #01dfed;
+    border-radius: 50px;
+    padding: 10px 25px;
+    display: block;
+    transition: 1s;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.authors a.button span:hover,
+.authors a.button span:focus {
+    background-color: #00cdda;
+    text-decoration: none;
+    color: white;
+}
+
+.goal {
+    background-image: url(../img/background_2.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.goal .container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 790px;
+}
+
+.project_goal {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px 40px 10px;
+}
+
+.project_goal h2 {
+    text-align: center;
+    margin: 0;
+    color: #797979;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+.project_goal h3 {
+    color: #252525;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.project_goal p {
+    color: #252525;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.mision {
+    margin-bottom: 30px;
+}
+
+.contacts {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.contacts .container {
+    max-width: 790px;
+    position: relative;
+}
+
+.contacts_map {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contacts h2 {
+    text-align: center;
+    margin: 60px 0 40px 0;
+    color: #797979;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+.contact_info p {
+    margin: 0;
+    line-height: 30px;
+}
+
+.contact_info {
+    max-width: 440px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px 80px 60px;
+}
+
+.contact_info h3 {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.contact_line {
+    margin-bottom: 20px;
+}
+
+.contact_line:last-child {
+    margin-bottom: 0;
+}
+
+.contact_info span {
+    color: #545454;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.contact_info a {
+    color: #3f9ec5;
+    font-size: 22px;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+.contact_info a:hover {
+    text-decoration: none;
+}
+
+.message .container {
+    max-width: 790px;
+    text-align: center;
+}
+
+.message img {
+    display: inline;
+    margin: 80px 0 25px 0;
+}
+
+.message h2 {
+    color: #545454;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.message p {
+    color: #b9b9b9;
+    font-style: italic;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.message_textarea {
+    overflow: hidden;
+}
+
+.message_form,
+.message_textarea {
+    padding-left: 30px;
+    color: #a5a5a5;
+    font-style: italic;
+    line-height: 26px;
+}
+
+.message_form {
+    margin-bottom: 23px;
+}
+
+.message_textarea {
+    margin-bottom: 10px;
+}
+
+.message_btn {
+    margin: 45px 0 90px;
+}
+
+.message_btn .button {
+    min-width: 185px;
+    background-color: #01dfed;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    margin: 0 5px;
+    border: none;
+    transition: 1s;
+}
+
+.message_btn .button:hover,
+.message_btn .button:focus {
+    background-color: #00cdda;
+}
+
+footer {
+    background-color: #1b3a5a;
+}
+
+footer .facebook {
+    background: url("../img/facebook_btn.png") no-repeat;
+    padding: 0 20px;
+    height: 40px;
+    display: block;
+}
+
+footer .top_menu_box {
+    margin-bottom: 25px;
+}
+
+footer .top_menu li a {
+    background-color: #49617b;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+footer .top_menu li a:hover {
+    background-color: #8d9dad;
+}
+
+footer .top_menu li:last-child a {
+    background-color: #01dfed;
+}
+
+footer .top_menu li:last-child a:hover {
+    background-color: #00cdda;
+}
+
+.copyright {
+    position: relative;
+    padding: 10px 0;
+    background-color: #162e48;
+    text-align: center;
+    color: #fefefe;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+.webmil_logo {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+.remodal {
+    padding: 10px 10px 40px;
+}
+
+.remodal .img_info img {
+    padding-bottom: 45px;
+}
+
+.remodal .project_btn {
+    left: 14%;
+    bottom: 30px;
+}
+
+.remodal .project_info {
+    padding: 0 70px 40px;
+    overflow: auto;
+    height: 300px;
+}
+
+.remodal .project_info {
+    text-align: left;
+}
+
+.remodal .project_info h3 {
+    margin: 0;
+}
+
+.remodal .info_btn {
+    margin-bottom: 0;
+}
+
+.remodal-close {
+    position: absolute;
+    top: 15px;
+    left: auto;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background: url(../img/cross.png);
+    z-index: 9;
+}
+
+.remodal-close:before {
+    content: '';
+}
+
+.gratitude_page header::after {
+    display: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.gratitude_page header {
+    min-height: auto;
+    flex: 0 0 auto;
+}
+
+.gratitude {
+    background: #f2f2f2;
+    flex: 1 0 auto;
+}
+
+.gratitude footer {
+    flex: 0 0 auto;
+}
+
+.gratitude .button_left {
+    background-color: #fff;
+    color: #08cad6;
+}
+
+.gratitude .button_left:hover {
+    background-color: #eee;
+}
+
+
+.application_page header::after {
+    display: none;
+}
+
+.application_page header {
+    min-height: auto;
+    flex: 0 0 auto;
+}
+
+.application {
+    background: #f2f2f2;
+    flex: 1 0 auto;
+}
+
+.application footer {
+    flex: 0 0 auto;
+}
+
+.application_page footer nav,
+.gratitude_page footer nav {
+  display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .top_menu li a {
+        margin: 0 5px;
+    }
+
+    .idea_btn {
+        margin-bottom: 75px;
+    }
+
+    .project h2 {
+        padding: 55px 0;
+    }
+
+    .project_info h3 {
+        height: 56px;
+        line-height: normal;
+    }
+
+    .project_info p {
+        margin-top: 20px;
+        height: 100px;
+    }
+
+    .project_item {
+        margin-bottom: 75px;
+    }
+
+    .authors h2 {
+        margin: 75px 0 55px 0;
+    }
+
+    .authors .button {
+        margin-bottom: 75px;
+    }
+
+    footer .top_menu li a {
+        padding: 10px 10px;
+    }
+
+    footer .top_menu_box {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    footer .top_menu li a {
+        margin: 0 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        padding: 25px 35px;
+    }
+
+    .goal .container {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    .project_goal {
+        padding: 30px 50px 20px;
+    }
+
+    .message img {
+        margin: 50px 0 15px 0;
+    }
+
+    footer .top_menu_box {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    footer .top_menu li a {
+        padding: 10px 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header .top_menu li a {
+        padding: 10px 69px;
+        border-radius: 0;
+    }
+
+    header .nav li {
+        margin-bottom: 20px;
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        float: none;
+        margin: 8px 0 0 0;
+        outline: none;
+        transform: translate(-50%);
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    header .col.col-sm-2.btn_container {
+        position: static;
+    }
+
+    header .social_btn {
+        position: absolute;
+        top: 50px;
+        right: 40px;
+        margin: 0;
+    }
+
+    header .navbar-collapse {
+        display: none;
+    }
+
+    header .heading_left {
+        padding: 0 15px;
+    }
+
+    .authors_info p {
+        margin-bottom: 50px;
+    }
+
+    .authors_btn {
+        margin-top: 0;
+    }
+
+    .contact_info {
+        padding: 20px 60px 20px;
+    }
+
+    .goal .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    footer {
+        min-width: 320px;
+    }
+
+    footer .logo {
+        padding: 25px 105px;
+        display: inline-block;
+        float: none;
+        margin: 40px 0 0;
+    }
+
+    footer .navbar-header {
+        text-align: center;
+    }
+
+    .social_btn {
+        margin: 0;
+        float: none!important;
+        text-align: center;
+    }
+
+    footer .top_menu li a {
+        padding: 10px 80px;
+        margin-bottom: 20px;
+    }
+
+    .navbar-collapse {
+        border-top: none;
+        box-shadow: none;
+    }
+
+    footer .copyright {
+        margin-right: 45px;
+    }
+
+    footer .webmil_logo {
+        right: -35px;
+    }
+
+    footer .copyright {
+        text-align: left;
+    }
+
+    footer .copyright p {
+        margin-left: 15px;
+    }
+
+    footer .top_menu li a {
+        border-radius: 0;
+    }
+
+    footer .facebook {
+        background: url("../img/facebook_btn.png") #fff center center no-repeat;
+        max-width: 270px;
+        height: 40px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .training h1 {
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .item h3 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .item h3 span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .button_order span {
+        padding: 10px 30px;
+    }
+
+    header .carousel-indicators {
+        top: 350px;
+    }
+
+    .project_goal {
+        padding: 20px 30px 20px;
+    }
+
+    .contact {
+        padding-top: 600px;
+    }
+
+    .contacts_map {
+        height: 650px;
+    }
+
+    .contact_info {
+        margin-top: 130px;
+    }
+
+    .remodal .project_info {
+        padding: 0 30px 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo {
+        margin: 40px 0 0 0;
+    }
+
+    header .social_btn {
+        right: 15px;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .idea img {
+        margin: 60px auto 0;
+    }
+
+    .idea_btn {
+        margin-bottom: 45px;
+    }
+
+    .idea h2,
+    .project h2,
+    .authors h2,
+    .project_goal h2,
+    .contacts h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .idea_btn .button_left,
+    .idea_btn .button_right {
+        min-width: 290px;
+        border-radius: 0;
+        margin-bottom: 20px;
+    }
+
+    .idea_btn .button_left span,
+    .idea_btn .button_right span {
+        border-radius: 0;
+    }
+
+    .info_btn .button,
+    .info_btn .button span {
+        border-radius: 0;
+    }
+
+    .info_btn .button span {
+        padding: 10px 110px;
+    }
+
+    .goal .container {
+        padding-top: 20px;
+    }
+
+    .project h2 {
+        padding: 40px 0 30px;
+    }
+
+    .authors h2 {
+        margin: 50px 0 40px;
+    }
+
+    .authors h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 55px;
+    }
+
+    .authors .button span,
+    .message_btn .button span {
+        border-radius: 0;
+        padding: 10px 82px;
+    }
+
+    .goal .container {
+        padding: 40px 0;
+    }
+
+    .contacts_map {
+        height: 610px;
+    }
+
+    .message img {
+        margin: 40px 0 0;
+    }
+
+    .contact_info h3 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .contact_info {
+        text-align: center;
+        padding: 5px 20px 10px;
+        margin-top: 150px;
+    }
+
+    .authors .button span,
+    .message_btn .button span,
+    .authors .button span {
+        max-width: 290px;
+    }
+
+    .button_order span,
+    .message_btn .button span {
+        min-width: 290px;
+        text-align: center;
+    }
+
+    .button_order span {
+        border-radius: 0;
+    }
+
+    .button_order {
+        background-color: inherit;
+        bottom: 20px;
+    }
+
+    .message_btn .button {
+        min-width: 280px;
+        border-radius: 0;
+        margin-bottom: 20px;
+    }
+
+    .message_btn {
+        margin: 30px 0 50px;
+    }
+
+    .remodal .project_info {
+        padding: 0 25px 20px;
+    }
+
+    .remodal .info_btn .button span {
+        padding: 10px 105px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        margin: 15px 0 0 -10px;
+    }
+
+    header .social_btn {
+        top: 23px;
+        right: 10px;
+    }
+
+    .navbar-toggle {
+        top: 15px;
+    }
+
+    header .carousel-indicators {
+        top: 380px;
+    }
+
+    .idea_btn .button_left,
+    .idea_btn .button_right {
+        min-width: 290px;
+    }
+
+    .idea_btn .button_left,
+    .idea_btn .button_right {
+        margin-left: 0;
+    }
+
+    .info_btn .button span {
+        padding: 10px 85px;
+    }
+
+    .contact_info {
+        padding: 20px 40px 20px;
+    }
+
+    .contacts_map {
+        height: 635px;
+    }
+
+    .remodal .project_info {
+        padding: 0 15px 20px;
+    }
+
+    .remodal .info_btn .button span {
+        padding: 10px 90px;
+    }
+}
